@@ -1,7 +1,14 @@
 pragma solidity ^0.4.23;
 
+import "./Owned.sol";
+
 contract Election {
     //TODO: Candidate struct
+    struct Candidate {
+		String name;
+		String party;
+		uint votes;
+    }
     //TODO: Voter struct
     //TODO: addCandidate (Owned only) function
     //TODO: viewCandidates function
