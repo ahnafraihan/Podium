@@ -2,7 +2,11 @@ pragma solidity ^0.4.23;
 
 contract Election {
     //TODO: Candidate struct
-    //TODO: Voter struct
+    struct Voter {
+        string firstName;
+        string lastName;
+        string party;
+    }
     //TODO: addCandidate (Owned only) function
     //TODO: viewCandidates function
     //TODO: vote function (electionActive only)
