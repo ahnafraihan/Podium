@@ -1,5 +1,7 @@
 pragma solidity ^0.4.23;
 
+import "Owned.sol";
+
 //TODO: hashing definitely should be in here somewhere this is not secure in the slightest
 contract ElectionPlatform is Owned {
     Election[] elections;                                   // store elections
